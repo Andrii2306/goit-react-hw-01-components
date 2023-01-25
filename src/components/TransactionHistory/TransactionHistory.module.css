@@ -1,0 +1,16 @@
+table,
+th,
+td {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid;
+  border-color: green;
+}
+th {
+  background-color: blue;
+}
+.transactionHistory {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

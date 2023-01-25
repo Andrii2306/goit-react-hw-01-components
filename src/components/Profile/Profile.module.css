@@ -1,0 +1,44 @@
+.profile {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.description {
+  background: darkgray;
+}
+.name {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.tag {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.location {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stats {
+  margin: 0 auto;
+  background: dimgray;
+  display: flex;
+  width: 472px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0px px 4px 4px;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+.stat li {
+  width: 80px;
+}
+.lable {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.quantity {
+  font-weight: 700;
+}
