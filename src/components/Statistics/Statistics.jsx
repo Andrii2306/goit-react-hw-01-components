@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
-import { StElement } from './StElement';
-import css from '../Statistics/Statistics.module.css';
+import css from '../statistics/Statistics.module.css';
+import { StatisticsEl } from './StatisticsEl';
 
-export const Statistics = ({ stat, title = null }) => {
+export const Statistics = ({ stats, title = null }) => {
   return (
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
-      <ul className={css.stList}>
-        {stat.map(({ id, label, percentage }) => (
-          <StElement key={id} label={label} percentage={percentage} />
+      <ul className={css.statList}>
+        {stats.map(({ id, label, percentage }) => (
+          <StatisticsEl key={id} label={label} percentage={percentage} />
         ))}
       </ul>
     </section>
@@ -17,7 +17,7 @@ export const Statistics = ({ stat, title = null }) => {
 
 Statistics.propTypes = {
   title: PropTypes.string,
-  stat: PropTypes.arrayOf(
+  stats: PropTypes.arrayOf(
     PropTypes.exact({
       id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,

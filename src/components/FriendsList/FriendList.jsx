@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
-import css from '../FriendsList/Friends.module.css';
+import css from '../friendsList/Friends.module.css';
 import { FriendsListItem } from './FriendListItem';
-// import { FriendsListItem } from '../FriendsList/FriendListItem';
 
 export const FriendsList = ({ friends }) => {
   return (
@@ -21,8 +20,8 @@ export const FriendsList = ({ friends }) => {
 FriendsList.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.exact({
-      id: PropTypes.number.isRequired,
       avatar: PropTypes.string.isRequired,
+      id: PropTypes.number.isRequired,
       name: PropTypes.string.isRequired,
       isOnline: PropTypes.bool.isRequired,
     })

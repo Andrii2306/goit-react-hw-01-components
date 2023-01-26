@@ -1,6 +1,6 @@
-import css from '../Statistics/Statistics.module.css';
+import css from '../statistics/Statistics.module.css';
 
-export const StElement = ({ label, percentage }) => {
+export const StatisticsEl = ({ label, percentage }) => {
   return (
     <li className={css.item}>
       <span className={css.label}>{label}</span>
