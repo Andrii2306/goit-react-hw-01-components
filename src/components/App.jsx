@@ -14,14 +14,19 @@
 //     </div>
 //   );
 // };
+//
 import { Profile } from './profile/Profile';
 import { FriendsList } from './friendsList/FriendList';
 import { Transactions } from './transactionHistory/TransactionHistory';
 import { Statistics } from './statistics/Statistics';
-import user from '../data/user.json';
-import data from '../data/data.json';
-import transactions from '../data/transactions.json';
-import friends from '../data/friends.json';
+// import user from '../data/user.json';
+import user from './data/user.json';
+// import data from '../data/data.json';
+import data from './data/data.json';
+// import transactions from '../data/transactions.json';
+import transactions from './data/transactions.json';
+// import friends from '../data/friends.json';
+import friends from './data/friends.json';
 
 export const App = () => {
   return (
@@ -34,7 +39,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
-      {/* <Statistics stats={data} /> */}
+      {<Statistics stats={data} />}
       <FriendsList friends={friends} />
       <Transactions items={transactions} />
     </>
