@@ -15,9 +15,13 @@
 //   );
 // };
 //
+// import { Profile } from './profile/Profile';
 import { Profile } from './profile/Profile';
+// import { FriendsList } from './friendsList/FriendList';
 import { FriendsList } from './friendsList/FriendList';
+// import { Transactions } from './transactionHistory/TransactionHistory';
 import { Transactions } from './transactionHistory/TransactionHistory';
+// import { Statistics } from './statistics/Statistics';
 import { Statistics } from './statistics/Statistics';
 // import user from '../data/user.json';
 import user from './data/user.json';
