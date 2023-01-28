@@ -18,11 +18,11 @@
 // import { Profile } from './profile/Profile';
 import { Profile } from './Profile/Profile';
 // import { FriendsList } from './friendsList/FriendList';
-import { FriendsList } from './friendsList/FriendList';
+import { FriendsList } from './FriendsList/FriendList';
 // import { Transactions } from './transactionHistory/TransactionHistory';
-import { Transactions } from './transactionHistory/TransactionHistory';
+import { Transactions } from './TransactionHistory/TransactionHistory';
 // import { Statistics } from './statistics/Statistics';
-import { Statistics } from './statistics/Statistics';
+import { Statistics } from './Statistics/Statistics';
 // import user from '../data/user.json';
 import user from './data/user.json';
 // import data from '../data/data.json';
