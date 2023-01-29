@@ -16,7 +16,7 @@
 // };
 //
 // import { Profile } from './profile/Profile';
-import { Profile } from './Profile/profile';
+import { Profile } from './profile/Profile';
 // import { FriendsList } from './friendsList/FriendList';
 import { FriendsList } from './friendsList/FriendList';
 // import { Transactions } from './transactionHistory/TransactionHistory';
