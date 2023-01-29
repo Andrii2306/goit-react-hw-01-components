@@ -27,12 +27,12 @@
   box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
   text-transform: uppercase;
 }
+.name {
+  padding-left: 30px;
+}
 .true {
   background-color: green;
 }
 .false {
   background-color: red;
-}
-.name {
-  padding-left: 30px;
 }
